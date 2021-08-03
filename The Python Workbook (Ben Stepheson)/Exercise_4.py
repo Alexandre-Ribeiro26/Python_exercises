@@ -1,12 +1,9 @@
 # Area of a Field
 
-meal = float(input('How much did your meal cost'))
+L = float(input('Tell me the length of your farmer'))
 
-tax = float(meal * 0.12)
-tip = float(meal * 0.18)
+W = float(input('Now, the width'))
 
-total_meal = float(meal + tax + tip)
+area = (L * W) / 4036.86
 
-print(f'The tax is R$ {tax:.2f}')
-print(f'The tip is R$ {tip:.2f}')
-print(f'The total of your meal is R$ {total_meal:.2f}')
+print(f'Your farmer has {area:.4f} acre')
